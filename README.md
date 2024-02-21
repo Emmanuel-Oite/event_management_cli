@@ -38,20 +38,22 @@ This is a simple CLI application for managing events and attendees.
    - Edit the details of a registered event
 
 5. Remove an event: -`python -m app.cli remove-event "EVENT NAME"`
-   <img src="./Presentation/remove-event.png" alt="Remove and event" />
+   <img src="./Presentation/remove-event.png" alt="Remove an event" />
 
    - Provide the name of the event to remove it.
 
 6. Add an attendee: -`python -m app.cli add-attendee "EVENT_NAME" "ATTENDEE NAME"`
+   <img src="./Presentation/add-attendee.png" alt="add an attendee" />
 
    - Add an attendee to a specific event by providing both event and attendee names.
 
 7. List attendees for an event: -`python -m app.cli list-attendees "EVENT NAME"`
+   <img src="./Presentation/list-attendees.png" alt="list attendees" />
 
    - View the list of attendees for a specific event.
 
 8. Remove an attendee: -`python -m app.cli remove-attendee "EVENT NAME" "ATTENDEE NAME"`
-
+   <img src="./Presentation/remove attendee.png" alt="Remove an attendee" />
    - Remove a specific attendee from an event by providing event and attendee names.
 
 ## Testing
