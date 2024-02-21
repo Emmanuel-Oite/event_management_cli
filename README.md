@@ -20,6 +20,7 @@ This is a simple CLI application for managing events and attendees.
 ## Usage
 
 1. To view all available commands: `python -m app.cli --help`
+   <img src="./Presentation/--help.png" alt="Show all Commands" />
 
 2. Add an event: -`python -m app.cli add-event "Birthday Party" --date "2024-03-15" --location "Party Venue"`
 
