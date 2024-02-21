@@ -26,31 +26,6 @@ This is a simple CLI application for managing events and attendees.
 3. Install dependencies: `pipenv install`.
 4. Run migrations: `alembic upgrade head`.
 
-## Usage
-
-- Add an event: `python app/cli.py add_event "EVENT_NAME" --date "2024-02-20" --location "Event Location"`
-
-  - Specify the event name, date, and location when adding an event.
-
-- Remove an event: `python app/cli.py remove_event "EVENT_NAME"`
-
-  - Provide the name of the event to remove it.
-
-- Add an attendee: `python app/cli.py add_attendee "EVENT_NAME" "ATTENDEE_NAME"`
-
-  - Add an attendee to a specific event by providing both event and attendee names.
-
-- Remove an attendee: `python app/cli.py remove_attendee "EVENT_NAME" "ATTENDEE_NAME"`
-
-  - Remove a specific attendee from an event by providing event and attendee names.
-
-- List events: `python app/cli.py list_events`
-
-  - View a list of all events.
-
-- List attendees for an event: `python app/cli.py list_attendees "EVENT_NAME"`
-  - View the list of attendees for a specific event.
-
 ## Testing
 
 Run tests using `pytest`.
