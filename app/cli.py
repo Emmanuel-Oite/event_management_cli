@@ -13,10 +13,7 @@ def cli():
 @click.option('--location', help='Specify the location of the event')
 def add_event(event_name, date, location):
     session = Session()
-
-    # Convert the date string to a Python date object
     event_date = datetime.strptime(date, "%Y-%m-%d").date() if date else None
-
     event = Event(name=event_name, date=event_date, location=location)
     session.add(event)
     session.commit()

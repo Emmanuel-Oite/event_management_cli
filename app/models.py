@@ -12,7 +12,7 @@ class Event(Base):
     id = Column(Integer, primary_key=True, autoincrement=True)
     name = Column(String, nullable=False)
     date = Column(Date)
-    location = Column(String)  # Add this line to define the 'location' field
+    location = Column(String)  
     attendees = relationship('Attendee', back_populates='event')
 
 class Attendee(Base):
