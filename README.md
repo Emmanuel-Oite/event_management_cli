@@ -28,7 +28,7 @@ This is a simple CLI application for managing events and attendees.
    - Specify the event name, date, and location when adding an event.
 
 3. List events: -`python -m app.cli list-events`
-   <img src="./Presentation/list-events" alt="List all events" />
+   <img src="./Presentation/list-event.png" alt="List all events" />
 
    - View a list of all events.
 
