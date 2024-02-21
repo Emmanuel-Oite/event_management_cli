@@ -98,7 +98,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
   - View the list of attendees for a specific event.
 
-- ## Edit and event : `python -m app.cli edit_event "Original Event Name" --new_name "Updated Event Name" --new_date "2024-04-01" --new_location "New Location"`
+- ## Edit and event : `python -m app.cli edit-event "Original Event Name" --new_name "Updated Event Name" --new_date "2024-04-01" --new_location "New Location"`
   - Edit the details of a registered event
 
 ## Testing
